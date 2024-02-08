@@ -22,6 +22,6 @@ def generate_qr_code(data, filename="qrcode.png"):
 if __name__ == "__main__":
     # Example usage
     data_to_encode = "https://www.example.com"
-    output_filename = "dev-gaurav_qrcode.png"
+    output_filename = "example-qr_code.png"
     generate_qr_code(data_to_encode, output_filename)
     print(f"QR Code generated and saved as {output_filename}")
